@@ -46,3 +46,5 @@ class ArticlesController < ApplicationController
     params.require(:article).permit(:title, :body)
   end
 end
+
+# Continue from https://guides.rubyonrails.org/getting_started.html#refactoring
